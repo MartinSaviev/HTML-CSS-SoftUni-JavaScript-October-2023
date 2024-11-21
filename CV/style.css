@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 1920px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0 1em;
+    margin: 0 auto;
+	
+}
+
+.header {
+	background-color: #ccc;
+	text-align: center;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-top: 1em;
+}
+
+.header h2{
+margin-bottom: 0.5rem;
+}
+
+.sv {
+	display: flex;
+	gap: 2em;
+    background-color: rgb(222, 235, 235);
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 3em;
+}
+
+.contact-details {
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	padding: 1em;
+	height: 80vh;
+    border-bottom-left-radius: 2em;
+    
+}
+
+.list-items {
+	margin-top: 0.5rem;
+	margin-left: 1em;
+}
+
+.list-items li {
+	margin-top: 0.2rem;
+}
+
+.resume {
+	margin-top: 3em;
+    
+}
+
+.summary {
+	border: 1px solid #ccc;
+	margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.summary h3,.experience h3,.projects h3 ,.links h3{
+	margin-bottom: 0.5em;
+}
+
+.experience {
+	border: 1px solid #ccc;
+	margin-bottom: 1em;
+	padding: 1em;
+    border-radius: 2em;
+}
+
+.projects {
+    border: 1px solid #ccc;
+	margin-bottom: 1em;
+	padding: 1em;
+    border-radius: 2em;
+}
+
+.link {
+    margin-top: 1em;
+    text-decoration: none;
+    
+}
