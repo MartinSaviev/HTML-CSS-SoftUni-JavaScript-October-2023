@@ -1,0 +1,16 @@
+html{
+    font: 16px/1.5 "Helvetica Neue";
+}
+div{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+.normal{
+box-sizing: content-box;
+}
+.box{
+box-sizing: border-box;
+}

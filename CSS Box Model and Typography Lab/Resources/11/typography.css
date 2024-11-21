@@ -1,0 +1,117 @@
+body {
+    padding: 2em;
+}
+
+html {
+
+    font: 14px/1.5 Helvetica, sans-serif;
+
+    /* font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif; */
+}
+
+
+body,
+input,
+button,
+table {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin-bottom: 0.5em;
+
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+p,
+ul,
+ol {
+    padding-bottom: 1.5em;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    padding-bottom: 0;
+}
+
+ul,
+ol {
+    padding-left: 1.5em;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #ddd;
+    padding-left: 1.5em;
+    margin: 1.5em;
+    margin-top: 0;
+
+}
+
+blockquote p:last-of-type {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #736f6f;
+
+
+}
+
+table tr th {
+    background-color: #736f6f;
+    text-align: left;
+
+}
+
+table tr:nth-child(even) {
+    background-color: #e9e4e4;
+
+
+}
+
+table tr td:nth-child(n+2) {
+    border-left: 1px solid #736f6f;
+
+}
