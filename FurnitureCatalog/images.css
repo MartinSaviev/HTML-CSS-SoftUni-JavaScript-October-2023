@@ -1,0 +1,21 @@
+.flex-images {
+    max-width: 920px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img {
+    flex: 0 1 20%;
+    display: flex;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
