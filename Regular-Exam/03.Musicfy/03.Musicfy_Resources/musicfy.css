@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Lato", sans-serif;
+}
+
+body {
+    background-color: #E0E0E0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #1DB954;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.navigation-and-button {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navigation {
+    display: flex;
+    gap: 2em;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.plans {
+    background-color: #1DB954;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    max-height: 20vh;
+}
+
+.plans h3 {
+    color: #F8FFFF;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.plans h2 {
+    color: #54546D;
+    text-align: center;
+   
+}
+
+.music {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+.music img {
+    max-width: 900px;
+}
+
+.plan-container {
+    display: flex;
+    max-width: 1300px;
+    gap: 7em;
+    padding-top: 3em;
+    margin: 0 auto;
+}
+
+.plan {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+    flex: 1 0 30%;
+    text-align: left;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.plan h2 {
+    font-size: 2.4em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.plan ul {
+    list-style-type: circle;
+    padding: 2em 4em;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.plan button {
+    align-self: center;
+    background-color: #1DB954;
+    color: white;
+    border-radius: 30px;
+    padding: 0.5em 1.5em;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    border: initial;
+}
+
+.price {
+    display: flex;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+
+}
+
+.price p {
+    font-size: 1.4em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    padding: 1em;
+}
+
+.payment {
+    background-color: white;
+    padding: 20em 7rem 0 7rem;
+    display: flex;
+}
+
+.dog-img {
+    display: flex;
+    flex: 1 0 350px;
+    height: 250px;
+    margin-top: 9em;
+}
+
+.dog-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.text{
+    padding: 7em 5em;
+}
+
+.text li {
+    padding-bottom: 1em;
+}
+
+.text h2 {
+    font-size: 1.85em;
+    margin-bottom: 1em;
+}
+
+.text p,
+li {
+    font-size: 1.4em;
+}
+
+.payment p,
+.payment ol {
+    margin-bottom: 1em;
+}
+
+.table {
+    background-color: white;
+    text-align: center;
+}
+
+.table h2 {
+    font-size: 4.5em;
+    padding: 1.5rem;
+}
+
+.table p {
+    font-size: 1.4em;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.table table {
+    width: 70%;
+    padding: 5em;
+
+}
+
+
+.table th,
+.table td {
+    padding: 0.5em;
+    text-align: center;
+
+
+}
+
+table tbody tr td:nth-child(1) {
+    text-align: left;
+    font-size: 1.4em;
+
+}
+
+table tbody tr td:nth-child(2) {
+    text-align: center;
+    font-size: 1.4em;
+
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #CCCBCB;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #81D8A0;
+
+
+
+}
+
+footer {
+    background-color: #191414;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2em;
+    font-size: 1.4em;
+}
+
+.border-bottom-right-radius {
+    border-bottom-right-radius: 5px;
+
+}
+
+.border-top-left-radius {
+    border-top-left-radius: 5px;
+}
+
+.border-bottom-left-radius {
+    border-bottom-left-radius: 5px;
+}
+
+
+.border-bottom-left-radius {
+    border-top-right-radius: 5px;
+}
