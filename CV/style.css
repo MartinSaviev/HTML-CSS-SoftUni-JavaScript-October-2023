@@ -7,29 +7,26 @@
 
 body {
 	font-family: Arial, sans-serif;
-	padding: 0 1em;
-    margin: 0 auto;
-	
+	padding: 1em;
+	margin: 0 auto;
 }
 
 .header {
 	background-color: #ccc;
 	text-align: center;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    margin-top: 1em;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
 }
 
-.header h2{
-margin-bottom: 0.5rem;
+.header h2 {
+	margin-bottom: 0.5rem;
 }
 
 .sv {
 	display: flex;
-	gap: 2em;
-    background-color: rgb(222, 235, 235);
-    border-bottom-right-radius: 2em;
-    border-bottom-left-radius: 3em;
+	background-color: rgb(222, 235, 235);
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 3em;
 }
 
 .contact-details {
@@ -38,9 +35,9 @@ margin-bottom: 0.5rem;
 	flex-direction: column;
 	gap: 2em;
 	padding: 1em;
-	height: 80vh;
-    border-bottom-left-radius: 2em;
-    
+	height: auto;
+	border-bottom-left-radius: 2em;
+	
 }
 
 .list-items {
@@ -53,37 +50,32 @@ margin-bottom: 0.5rem;
 }
 
 .resume {
-	margin-top: 3em;
-    
+	margin: 1em;
 }
 
-.summary {
-	border: 1px solid #ccc;
-	margin-bottom: 1em;
-    padding: 1em;
-    border-radius: 2em;
-}
-
-.summary h3,.experience h3,.projects h3 ,.links h3{
+.summary h3,
+.experience h3,
+.projects h3,
+.links h3,
+.courses h3 {
 	margin-bottom: 0.5em;
 }
 
-.experience {
+.experience,
+.summary,
+.projects,
+.courses {
 	border: 1px solid #ccc;
 	margin-bottom: 1em;
 	padding: 1em;
-    border-radius: 2em;
-}
-
-.projects {
-    border: 1px solid #ccc;
-	margin-bottom: 1em;
-	padding: 1em;
-    border-radius: 2em;
+	border-radius: 2em;
 }
 
 .link {
-    margin-top: 1em;
-    text-decoration: none;
-    
+	margin-top: 1em;
+	text-decoration: none;
+}
+
+.courses {
+	margin-bottom: 0;
 }
