@@ -37,7 +37,6 @@ body {
 	padding: 1em;
 	height: auto;
 	border-bottom-left-radius: 2em;
-	
 }
 
 .list-items {
@@ -69,11 +68,6 @@ body {
 	margin-bottom: 1em;
 	padding: 1em;
 	border-radius: 2em;
-}
-
-.link {
-	margin-top: 1em;
-	text-decoration: none;
 }
 
 .courses {
