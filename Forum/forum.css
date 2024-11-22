@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font: 14px/1.5 "inter, sa ns-serif"
+}
+
+body {
+    font: inherit;
+    background-image: url('/images/background.jpg');
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.quote-tow-colum i {
+    font-size: 2.6em;
+}
+
+.quote-one-colum i {
+    font-size: 5.3em;
+}
+
+article {
+    background-color: white;
+}
+
+.forum {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    margin: 5em;
+    gap: 2em;
+    border: 2px solid red;
+}
+
+.text-and-pick-second-column {
+    margin-top: 2em;
+}
+
+.two-columns {
+    flex: 1 0 70%
+}
+
+.one-colum {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.text-and-pick {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.text p {
+    opacity: 0.5;
+    margin-top: 1em;
+    font-size: 17px;
+}
+
+.text h3 {
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+.text {
+    padding: 3em 0 3em 3em;
+}
+
+.text-and-pick.second {
+    margin-top: 2em;
+}
+
+
+.media {
+    flex: 1 0 20%;
+    margin: 3em;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.media-one-column img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.text-and-pick-one-column {
+    padding: 2em;
+}
+
+.text-and-pick-one-column li~p {
+    font-size: 14px;
+    padding: 4em 0;
+}
+
+.media-one-column {
+    display: flex;
+    align-self: flex-end;
+
+}
+
+.media-one {
+    flex: 0 1 20%;  
+}
+
+.media-one img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+  
+}
+
+.media-one-column img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
