@@ -1,0 +1,43 @@
+.site {
+
+    max-width: 875px;
+    background-color: #1a74a0;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    font: 14px/1.5 "Helvetica Neue", sans-serif;
+}
+
+.container p {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.site {
+    padding: 2em;
+}
+
+.image {
+
+    flex: 1 0 200px;
+}
+
+.image img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.header h2 {
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 1.5em;
+}
